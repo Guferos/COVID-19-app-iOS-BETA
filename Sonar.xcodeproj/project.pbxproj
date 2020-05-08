@@ -103,6 +103,10 @@
 		21F373FF2433844D00926FB8 /* ContactEventRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F373FE2433844D00926FB8 /* ContactEventRepository.swift */; };
 		21F37402243384D400926FB8 /* PersistingContactEventRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F37401243384D400926FB8 /* PersistingContactEventRepositoryTests.swift */; };
 		21F374042434C4BF00926FB8 /* LiveBTLEDebuggerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F374032434C4BF00926FB8 /* LiveBTLEDebuggerTableViewController.swift */; };
+		2D309CDA2465E7FF00E6E336 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78CEB57242B7EBF002254AD /* FirebaseCore.framework */; };
+		2D78545F2465F59900FFB8AE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D78545E2465F59900FFB8AE /* GoogleService-Info.plist */; };
+		2DC41F162465E33C0071D5D0 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC41F142465E33C0071D5D0 /* Environment.swift */; };
+		2DC41F172465E33C0071D5D0 /* Sonar.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2DC41F152465E33C0071D5D0 /* Sonar.xcconfig */; };
 		6FC63C31241641B8007C8BF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC63C30241641B8007C8BF3 /* AppDelegate.swift */; };
 		6FC63C38241641BA007C8BF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC63C37241641BA007C8BF3 /* Assets.xcassets */; };
 		6FC63C3B241641BA007C8BF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FC63C39241641BA007C8BF3 /* LaunchScreen.storyboard */; };
@@ -173,8 +177,6 @@
 		F616959F2458A2DA006AABE3 /* AcknowledgmentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F616959E2458A2DA006AABE3 /* AcknowledgmentRequest.swift */; };
 		F61695A12458B3C0006AABE3 /* StatusNotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61695A02458B3C0006AABE3 /* StatusNotificationHandler.swift */; };
 		F61695A32458B556006AABE3 /* StatusNotificationHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61695A22458B556006AABE3 /* StatusNotificationHandlerTests.swift */; };
-		F618A564245C682500D89517 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F618A561245C682500D89517 /* Environment.swift */; };
-		F618A566245C682500D89517 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F618A563245C682500D89517 /* GoogleService-Info.plist */; };
 		F62F857F2451051C006580A8 /* ContactEventsUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62F857E2451051C006580A8 /* ContactEventsUploader.swift */; };
 		F62F858124510716006580A8 /* ContactEventsUploaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62F858024510716006580A8 /* ContactEventsUploaderTests.swift */; };
 		F62F858524510923006580A8 /* SessionDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62F858424510923006580A8 /* SessionDouble.swift */; };
@@ -238,7 +240,6 @@
 		F78CEB47242B7752002254AD /* String+localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78CEB46242B7752002254AD /* String+localized.swift */; };
 		F78CEB5A242B7EC0002254AD /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78CEB55242B7EBF002254AD /* FirebaseMessaging.framework */; };
 		F78CEB5B242B7EC0002254AD /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78CEB56242B7EBF002254AD /* FirebaseCoreDiagnostics.framework */; };
-		F78CEB5C242B7EC0002254AD /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78CEB57242B7EBF002254AD /* FirebaseCore.framework */; };
 		F78CEB5D242B7EC0002254AD /* PromisesObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78CEB58242B7EC0002254AD /* PromisesObjC.framework */; };
 		F78CEB5E242B7EC0002254AD /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78CEB59242B7EC0002254AD /* Protobuf.framework */; };
 		F78CEB6A242B8D3F002254AD /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78CEB69242B8D3E002254AD /* FirebaseInstanceID.framework */; };
@@ -374,6 +375,9 @@
 		21F373FE2433844D00926FB8 /* ContactEventRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactEventRepository.swift; sourceTree = "<group>"; };
 		21F37401243384D400926FB8 /* PersistingContactEventRepositoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistingContactEventRepositoryTests.swift; sourceTree = "<group>"; };
 		21F374032434C4BF00926FB8 /* LiveBTLEDebuggerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveBTLEDebuggerTableViewController.swift; sourceTree = "<group>"; };
+		2D78545E2465F59900FFB8AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2DC41F142465E33C0071D5D0 /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		2DC41F152465E33C0071D5D0 /* Sonar.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Sonar.xcconfig; sourceTree = "<group>"; };
 		6FC63C2D241641B8007C8BF3 /* Sonar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sonar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC63C30241641B8007C8BF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FC63C37241641BA007C8BF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -459,9 +463,6 @@
 		F616959E2458A2DA006AABE3 /* AcknowledgmentRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgmentRequest.swift; sourceTree = "<group>"; };
 		F61695A02458B3C0006AABE3 /* StatusNotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusNotificationHandler.swift; sourceTree = "<group>"; };
 		F61695A22458B556006AABE3 /* StatusNotificationHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusNotificationHandlerTests.swift; sourceTree = "<group>"; };
-		F618A561245C682500D89517 /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
-		F618A562245C682500D89517 /* Sonar.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Sonar.xcconfig; sourceTree = "<group>"; };
-		F618A563245C682500D89517 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F62F857E2451051C006580A8 /* ContactEventsUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactEventsUploader.swift; sourceTree = "<group>"; };
 		F62F858024510716006580A8 /* ContactEventsUploaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactEventsUploaderTests.swift; sourceTree = "<group>"; };
 		F62F858424510923006580A8 /* SessionDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDouble.swift; sourceTree = "<group>"; };
@@ -562,10 +563,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F78CEB5D242B7EC0002254AD /* PromisesObjC.framework in Frameworks */,
-				F78CEB5C242B7EC0002254AD /* FirebaseCore.framework in Frameworks */,
 				F78CEB71242B9305002254AD /* GoogleDataTransport.framework in Frameworks */,
 				F78CEB5B242B7EC0002254AD /* FirebaseCoreDiagnostics.framework in Frameworks */,
 				F78CEB6A242B8D3F002254AD /* FirebaseInstanceID.framework in Frameworks */,
+				2D309CDA2465E7FF00E6E336 /* FirebaseCore.framework in Frameworks */,
 				F78CEB6C242B8D84002254AD /* FirebaseInstallations.framework in Frameworks */,
 				F7D62F2724406FC8004C32A2 /* Logging in Frameworks */,
 				F78CEB5A242B7EC0002254AD /* FirebaseMessaging.framework in Frameworks */,
@@ -1099,9 +1100,9 @@
 		F618A560245C682500D89517 /* .secret */ = {
 			isa = PBXGroup;
 			children = (
-				F618A561245C682500D89517 /* Environment.swift */,
-				F618A562245C682500D89517 /* Sonar.xcconfig */,
-				F618A563245C682500D89517 /* GoogleService-Info.plist */,
+				2D78545E2465F59900FFB8AE /* GoogleService-Info.plist */,
+				2DC41F142465E33C0071D5D0 /* Environment.swift */,
+				2DC41F152465E33C0071D5D0 /* Sonar.xcconfig */,
 			);
 			path = .secret;
 			sourceTree = "<group>";
@@ -1428,10 +1429,11 @@
 				8947F833245AD97A00C4F1BB /* Settings.bundle in Resources */,
 				F758B8BE242CB856003AE16D /* Localizable.strings in Resources */,
 				6FC63C38241641BA007C8BF3 /* Assets.xcassets in Resources */,
-				F618A566245C682500D89517 /* GoogleService-Info.plist in Resources */,
+				2D78545F2465F59900FFB8AE /* GoogleService-Info.plist in Resources */,
 				895D9E462437458700573D4D /* AppIcon.xcassets in Resources */,
 				F68B89ED243CFF2600F369A9 /* SelfDiagnosis.storyboard in Resources */,
 				F6F05A322434310200FF4B72 /* Onboarding.storyboard in Resources */,
+				2DC41F172465E33C0071D5D0 /* Sonar.xcconfig in Resources */,
 				F70CB81B2450CFA900ED6E7F /* OnboardingLogoStrapline.xib in Resources */,
 				098ED481242E745F0029B729 /* Debug.storyboard in Resources */,
 			);
@@ -1595,7 +1597,6 @@
 				21C09A8F2437B99F00368203 /* BluetoothNursery.swift in Sources */,
 				0986EFB5244518FE008D0E1D /* ButtonWithDynamicType.swift in Sources */,
 				F64D76F724577D9600B1D495 /* StatusProvider.swift in Sources */,
-				F618A564245C682500D89517 /* Environment.swift in Sources */,
 				8983E619245867CF001F2011 /* AppMonitoring.swift in Sources */,
 				097C94C9245B8146008A9695 /* LocaleProvider.swift in Sources */,
 				F6CC2CA9242BC7FC0079432B /* RemoteNotificationManager.swift in Sources */,
@@ -1615,6 +1616,7 @@
 				F72EBD97243C8490009F9328 /* BluetoothStateUserNotifier.swift in Sources */,
 				09C9DB382460946B0012F80A /* UpdatesBasedOnAccessibilityDisplayChanges.swift in Sources */,
 				896BE90F244F07FF00B3687C /* PublicKeyValidator.swift in Sources */,
+				2DC41F162465E33C0071D5D0 /* Environment.swift in Sources */,
 				134470AD2454D4DA001A0AD9 /* UpdateDiagnosisCoordinator.swift in Sources */,
 				8983E618245867CF001F2011 /* AppEvent.swift in Sources */,
 				89C8B212245C5093009CCE80 /* DailyMetricsCollector.swift in Sources */,
@@ -1757,15 +1759,39 @@
 		};
 		6FC63C40241641BA007C8BF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F618A562245C682500D89517 /* Sonar.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = A78K43GBZ5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = Sonar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ep.sonar;
+				PRODUCT_NAME = Sonar;
 			};
 			name = Debug;
 		};
 		6FC63C41241641BA007C8BF3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F618A562245C682500D89517 /* Sonar.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = A78K43GBZ5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = Sonar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ep.sonar;
+				PRODUCT_NAME = Sonar;
 			};
 			name = Release;
 		};

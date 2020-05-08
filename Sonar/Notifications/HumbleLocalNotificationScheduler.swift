@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 protocol LocalNotificationScheduling {
     func scheduleLocalNotification(title: String?, body: String, interval: TimeInterval, identifier: String, repeats: Bool)

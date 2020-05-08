@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import UIKit
 import Logging
 
 let PotentiallyExposedNotification = NSNotification.Name("PotentiallyExposedNotification")

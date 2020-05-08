@@ -8,6 +8,7 @@
 
 import CoreBluetooth
 import Foundation
+import UIKit
 
 class AuthorizationManager: AuthorizationManaging {
     

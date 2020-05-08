@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import UIKit
 import Logging
 
 protocol UserNotificationCenter: class {

@@ -6,6 +6,9 @@
 //  Copyright © 2020 NHSX. All rights reserved.
 //
 
+import UIKit
+import Foundation
+
 struct StatusContent: Decodable {
 
     static let shared: StatusContent = {
